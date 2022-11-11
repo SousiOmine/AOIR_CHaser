@@ -48,7 +48,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy, cx + 1, cy + 1, returnNumber, EditMapData);
-            //fillMapData(0, cy - 1, 100, cy - 1, EditMapData, -1);
             break;
 
         case -1:
@@ -72,7 +71,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx, cy - 1, cx + 1, cy + 1, returnNumber, EditMapData);
-            //fillMapData(cx - 1, 0, cx - 1, 100, EditMapData, -1);
             break;
 
         case -1:
@@ -96,7 +94,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy - 1, cx, cy + 1, returnNumber, EditMapData);
-            //fillMapData(cx + 1, 0, cx + 1, 100, EditMapData, -1);
             break;
 
         case -1:
@@ -120,7 +117,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy - 1, cx + 1, cy, returnNumber, EditMapData);
-            //fillMapData(0, cy + 1, 100, cy + 1, EditMapData, -1);
             break;
 
         case -1:
@@ -165,7 +161,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy - 1, cx + 1, cy, returnNumber, EditMapData);
-            fillMapData(0, cy + 1, 100, cy + 1, EditMapData, -1);
             break;
 
         case -1:
@@ -209,7 +204,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy - 1, cx, cy + 1, returnNumber, EditMapData);
-            fillMapData(cx + 1, 0, cx + 1, 100, EditMapData, -1);
             break;
 
         case -1:
@@ -235,7 +229,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx, cy - 1, cx + 1, cy + 1, returnNumber, EditMapData);
-            fillMapData(cx - 1, 0, cx - 1, 100, EditMapData, -1);
             break;
 
         case -1:
@@ -279,7 +272,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
 
         case 6:
             writeMapData(interim, cx - 1, cy, cx + 1, cy + 1, returnNumber, EditMapData);
-            fillMapData(0, cy - 1, 100, cy - 1, EditMapData, -1);
             break;
 
         case -1:
@@ -353,7 +345,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
             break;
         case 6:
             writeMapData(interim, cx - 1, cy - 2, cx + 1, cy - 1, returnNumber, EditMapData);
-            fillMapData(0, cy - 3, 100, cy - 3, EditMapData, -1);
             break;
         case 3:
             writeMapData(interim, cx - 1, cy - 1, cx + 1, cy - 1, returnNumber, EditMapData);
@@ -375,7 +366,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
             break;
         case 6:
             writeMapData(interim, cx - 2, cy - 1, cx - 1, cy + 1, returnNumber, EditMapData);
-            fillMapData(cx - 3, 0, cx - 3, 100, EditMapData, -1);
             break;
         case 3:
             writeMapData(interim, cx - 1, cy - 1, cx - 1, cy + 1, returnNumber, EditMapData);
@@ -397,7 +387,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
             break;
         case 6:
             writeMapData(interim, cx + 1, cy - 1, cx + 2, cy + 1, returnNumber, EditMapData);
-            fillMapData(cx + 3, 0, cx + 3, 100, EditMapData, -1);
             break;
         case 3:
             writeMapData(interim, cx + 1, cy - 1, cx + 1, cy + 1, returnNumber, EditMapData);
@@ -419,7 +408,6 @@ int makeMapData(int EditMapData[101][101], int UseChInfo[], int returnNumber[], 
             break;
         case 6:
             writeMapData(interim, cx - 1, cy + 1, cx + 1, cy + 2, returnNumber, EditMapData);
-            fillMapData(0, cy + 3, 100, cy + 3, EditMapData, -1);
             break;
         case 3:
             writeMapData(interim, cx - 1, cy + 1, cx + 1, cy + 1, returnNumber, EditMapData);

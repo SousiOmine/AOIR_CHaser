@@ -1,4 +1,9 @@
 
+/*	AOIR_CHaserのコードを見ていただきありがとうございます。
+	各関数の役割や仕様はdocs/commentary.mdをご覧ください。
+	GitHubリポジトリ(SousiOmine/AOIR_CHaser)へのIssue、PullRequestもお待ちしております。
+	当プロジェクトを利用した作品を第三者に提供したり、再配布する際などは、lecenseファイルの内容をよくご確認ください。*/
+
 #include "include/CHaserOnline2022.h"
 #include "include/selectcmd.h"
 #include "include/MapSystem.h"
@@ -76,6 +81,7 @@ int main(int argc, char *argv[]){
 	ActionReturnNumber[0]=-10000;
 
 	printf("[AOIR_CHaser Ver2022.1.0 made by SousiOmine]\n");
+
 
 	read_settingfile("setting.csv");
 

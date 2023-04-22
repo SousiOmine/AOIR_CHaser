@@ -68,7 +68,7 @@ int selectcmd_rank(int UseMapData[101][101], int UseChInfo[], int mode, int retu
     cmd[2][28] = 41;
     cmd[2][29] = 43;
     cmd[2][30] = 45;
-    cmd[2][31] = 46;
+    cmd[2][31] = 47;
     cmd[2][32] = 144;
     cmd[2][33] = 145;
     cmd[2][34] = 146;
